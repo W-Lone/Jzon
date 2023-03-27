@@ -1,7 +1,8 @@
 <?php
 header("Content-Type:application/json");
 $data = [
-    "name" => "hugo",
-    "note" => 6
+    "name" => "Leo",
+    "note" => 8
 ];
+
 echo json_encode($data);
